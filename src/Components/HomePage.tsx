@@ -17,16 +17,24 @@ const HomePage = () => {
           </div>
           <section className=" md:ml-1">
             <h1>
-              <span className="text-4xl md:text-7xl">OLVIS</span>
+              <span id="span" className="text-4xl md:text-7xl">
+                OLVIS
+              </span>
               <br />
-              <span className="text-4xl md:text-7xl">ENMANUEL</span>
+              <span id="span" className="text-4xl md:text-7xl">
+                ENMANUEL
+              </span>
               <br />
-              <span className="text-4xl md:text-7xl">MEJIA</span>
-              <span className="text-4xl md:text-7xl ml-4">PAREDES</span>
+              <span id="span" className="text-4xl md:text-7xl">
+                MEJIA
+              </span>
+              <span id="span" className="text-4xl md:text-7xl ml-4">
+                PAREDES
+              </span>
             </h1>
             <div>
               <h3 className="mt-5">
-                <span className="text-2xl md:text-4xl">
+                <span id="span" className="text-2xl md:text-4xl">
                   Tecnologo en Desarrollo de Sotfware
                 </span>
               </h3>
@@ -35,7 +43,7 @@ const HomePage = () => {
                   <img
                     src={gmail}
                     alt=""
-                    className="w-8 h-8 md:w-16 md:h-16 rounded-full"
+                    className="w-8 h-8 md:w-16 md:h-16 rounded-full border-1"
                   />
                 </a>
                 <a href="https://github.com/OlvisM">

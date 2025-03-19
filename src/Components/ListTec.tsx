@@ -30,15 +30,19 @@ const ListTec = () => {
   }, [currentIndex]);
 
   return (
-    <article>
-      <div>
-        <h1 className="text-8xl text-bold">Tecnologias que manejo</h1>
-      </div>
-      <div className="relative w-full flex justify-center items-center h-56 md:h-96">
-        <h1 className="text-4xl font-bold transition-opacity duration-700 opacity-100">
-          {words[currentIndex]}
-        </h1>
-      </div>
+    <article className="w-300 border-2 rounded-3xl">
+      <section className="flex justify-center ">
+        <div>
+          <h1 id="span" className="text-8xl text-bold">
+            Tecnologias que manejo
+          </h1>{" "}
+          <div className="relative w-full flex justify-center items-center h-56 md:h-96">
+            <h1 className="text-4xl font-bold transition-opacity duration-700 opacity-100">
+              {words[currentIndex]}
+            </h1>
+          </div>
+        </div>
+      </section>
     </article>
   );
 };

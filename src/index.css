@@ -1,6 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barriecito&family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap");
 @import "tailwindcss";
 
-:root {
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+#header {
+  background-image: url(./assets/Wallpaper/bannerMypage.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#title {
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#span {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+p {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#title2 {
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
