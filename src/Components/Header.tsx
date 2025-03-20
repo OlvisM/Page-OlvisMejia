@@ -34,7 +34,7 @@ const Hearder = ({
   return (
     <>
       <header
-        className={`bg-transparent text-gray-600 p-4 hadow-md w-full fixed top-0 left-75 md:left-0 z-50 transition-transform duration-200 ${
+        className={`bg-transparent text-gray-600 p-4 w-full fixed top-0 left-75 md:left-0 z-50 transition-transform duration-200 ${
           hidden ? "-translate-y-full" : "translate-y-0"
         }`}
       >
@@ -46,7 +46,7 @@ const Hearder = ({
             {isOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
           <nav
-            className={`absolute md:relative top-16 md:top-0 right-10 md:right-0 w-full md:w-auto bg-transparent md:bg-transparent shadow-md md:shadow-none transition-all duration-300 ease-in-out ${
+            className={`absolute md:relative top-16 md:top-0 right-13 md:right-0 w-full md:w-auto bg-transparent md:bg-transparent md:shadow-none transition-all duration-300 ease-in-out ${
               isOpen ? "block" : "hidden"
             } md:flex md:items-right`}
           >

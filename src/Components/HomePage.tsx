@@ -25,8 +25,8 @@ const HomePage = forwardRef<HTMLDivElement>((_, ref) => {
             <span className="mr-3">MEJÍA</span>
             <span>PAREDES</span>
           </h1>
-          <p className="mt-4 text-xl md:text-2xl font-medium text-gray-600">
-            <span>Tecnólogo en Desarrollo de Software</span>
+          <p className="mt-4 text-xl md:text-2xl font-medium text-gray-500">
+            <span>Front-End Developer</span>
           </p>
         </section>
       </div>

@@ -8,18 +8,16 @@ const AboutMe = forwardRef<HTMLDivElement>((_, ref) => {
     >
       <section className="w-300">
         <div className="text-left">
-          <h1 className="text-3xl md:text-6xl font-bold text-gray-800">
+          <h1 className="text-3xl md:text-6xl font-bold text-gray-800 px-2 md:px-0">
             ACERCA DE MÍ
           </h1>
         </div>
 
-        <div className="mt-8 flex flex-col md:flex-row gap-8 justify-center">
+        <div className="mt-8 flex flex-col md:flex-row gap-8 justify-center px-2 md:px-0">
           <div className="md:w-200">
             <p className="text-justify text-gray-700 leading-relaxed">
-              Me pongo en contacto con ustedes para expresar mi interés en una
-              posible oportunidad laboral en su empresa. Soy un estudiante de
-              Desarrollo de Software en el ITLA, y me encuentro en los últimos
-              semestres de mi formación académica.
+              Soy un estudiante de Desarrollo de Software en el ITLA, y me
+              encuentro en los últimos semestres de mi formación académica.
             </p>
             <p className="text-justify mt-4 text-gray-700 leading-relaxed">
               Estoy interesado en ampliar mis conocimientos y aplicarlos en el
