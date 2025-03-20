@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, forwardRef } from "react";
 
 const words = [
   "C# .NET",
@@ -18,7 +18,7 @@ const words = [
   " Entity Frameworck",
 ]; // Lista de palabras
 
-const ListTec = () => {
+const ListTec = forwardRef<HTMLDivElement>((_, ref) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -30,14 +30,20 @@ const ListTec = () => {
   }, [currentIndex]);
 
   return (
-    <article className="w-300 border-2 rounded-3xl">
+    <article ref={ref} className="w-screen bg-gray-400">
       <section className="flex justify-center ">
-        <div>
-          <h1 id="span" className="text-8xl text-bold">
-            Tecnologias que manejo
-          </h1>{" "}
+        <div className="mt-10">
+          <h1
+            id="span"
+            className=" font-semibold text-2xl md:text-8xl mt-2 md:mt-0 "
+          >
+            TECNOLOGIAS QUE MANEJO
+          </h1>
           <div className="relative w-full flex justify-center items-center h-56 md:h-96">
-            <h1 className="text-4xl font-bold transition-opacity duration-700 opacity-100">
+            <h1
+              id="title2"
+              className="text-2xl md:text-4xl font-bold transition-opacity duration-700 opacity-100"
+            >
               {words[currentIndex]}
             </h1>
           </div>
@@ -45,6 +51,6 @@ const ListTec = () => {
       </section>
     </article>
   );
-};
+});
 
 export default ListTec;

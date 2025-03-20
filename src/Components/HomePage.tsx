@@ -1,67 +1,37 @@
+import { forwardRef } from "react";
 import Image1 from "../assets/Olvis2.jpg";
-import git from "../assets/Logos//github-512.webp";
-import gmail from "../assets/Logos/Gmail_Icon.jpg";
-import whatsapp from "../assets/Logos/Whatsapp_icon.png";
 
-const HomePage = () => {
+const HomePage = forwardRef<HTMLDivElement>((_, ref) => {
   return (
-    <>
-      <article className=" max-w-screen max-h-screen overflow-hidden">
-        <div className=" w-300 flex flex-col md:flex-row">
-          <div className="flex-shrink-0">
-            <img
-              src={Image1}
-              alt=""
-              className="object-contain max-w-screen md:w-150 h-150 md:max-h-screen"
-            />
-          </div>
-          <section className=" md:ml-1">
-            <h1>
-              <span id="span" className="text-4xl md:text-7xl">
-                OLVIS
-              </span>
-              <br />
-              <span id="span" className="text-4xl md:text-7xl">
-                ENMANUEL
-              </span>
-              <br />
-              <span id="span" className="text-4xl md:text-7xl">
-                MEJIA
-              </span>
-              <span id="span" className="text-4xl md:text-7xl ml-4">
-                PAREDES
-              </span>
-            </h1>
-            <div>
-              <h3 className="mt-5">
-                <span id="span" className="text-2xl md:text-4xl">
-                  Tecnologo en Desarrollo de Sotfware
-                </span>
-              </h3>
-              <section className="mt-30 ml-30 flex flex-row space-x-5">
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">
-                  <img
-                    src={gmail}
-                    alt=""
-                    className="w-8 h-8 md:w-16 md:h-16 rounded-full border-1"
-                  />
-                </a>
-                <a href="https://github.com/OlvisM">
-                  <img src={git} alt="" className="w-8 h-8 md:w-16 md:h-16" />
-                </a>
-                <a href="https://web.whatsapp.com/">
-                  <img
-                    src={whatsapp}
-                    alt=""
-                    className="w-8 h-8 md:w-16 md:h-16 "
-                  />
-                </a>
-              </section>
-            </div>
-          </section>
+    <article
+      ref={ref}
+      className="flex flex-col md:flex-row items-center justify-center h-170 p-4"
+    >
+      <div className="flex flex-col md:flex-row items-center max-w-4xl w-full space-y-6 md:space-y-0 md:space-x-10">
+        <div className="w-32 h-30 md:w-150 md:h-130 flex-shrink-0">
+          <img
+            src={Image1}
+            alt="Perfil"
+            className="w-full h-full object-cover md:rounded-2xl rounded-full border-2 border-gray-300 shadow-2xl"
+          />
         </div>
-      </article>
-    </>
+
+        <section className="text-center md:text-left">
+          <h1
+            id="span"
+            className="text-3xl md:text-5xl font-bold leading-tight"
+          >
+            <span className="block">OLVIS ENMANUEL</span>
+            <span className="mr-3">MEJÍA</span>
+            <span>PAREDES</span>
+          </h1>
+          <p className="mt-4 text-xl md:text-2xl font-medium text-gray-600">
+            <span>Tecnólogo en Desarrollo de Software</span>
+          </p>
+        </section>
+      </div>
+    </article>
   );
-};
+});
+
 export default HomePage;
