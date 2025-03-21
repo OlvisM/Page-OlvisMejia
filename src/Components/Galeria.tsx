@@ -23,8 +23,8 @@ const Galeria = forwardRef<HTMLDivElement>((_, ref) => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">TicTacToe</div>
                 <p className="text-black text-justify text-base">
-                  Fue una practica donde me asignaron a hacer el profesor fue
-                  una practica Muy buena. Fue creado con C#.{" "}
+                  Es una practica donde me asignaron a hacer el profesor fue una
+                  practica Muy buena. Fue creado con C#.{" "}
                   <a
                     className="ml-3 text-blue-400"
                     href="https://github.com/OlvisM/Proyectofinal_TicTacToe"
@@ -48,9 +48,10 @@ const Galeria = forwardRef<HTMLDivElement>((_, ref) => {
                   G-Ministries(GlobalControl)
                 </div>
                 <p className="text-black text-justify text-base">
-                  Fue un pagian que me solicitaron hacer, donde me dieron la
-                  oprtunidad de hacer la pasadon, la pagina va orientada a una
-                  fundacion. Fue creada con React y Tailwindcss.
+                  Es una pagina que me solicitaron hacer en esa empresa para una
+                  fundacion que piensan formalisar, donde me dieron la
+                  oportunidad de hacer la pasadon. Fue creada con React y
+                  Tailwindcss.
                 </p>
               </div>
             </div>
@@ -66,7 +67,7 @@ const Galeria = forwardRef<HTMLDivElement>((_, ref) => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">ITLA-TV+</div>
                 <p className="text-black text-justify text-base">
-                  Fue una practica que me puso el profesor que fue como una
+                  Es una practica que me puso el profesor que fue como una
                   pagina para subir peliculas, donde podia poner el titulo,
                   imagen, descripcion, trailer etc. Fue creado en C# y
                   SQLServer.
