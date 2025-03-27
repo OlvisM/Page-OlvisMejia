@@ -31,7 +31,7 @@ const Footer = forwardRef<HTMLDivElement>((_, ref) => {
                 className="w-5 h-5 md:w-10 md:h-10"
               />
             </a>
-            <a href="https://web.whatsapp.com/">
+            <a href="https://wa.me/8499254658?text=Hola Olvis, me gustaría contactarte para una oferta de trabajo">
               <img
                 src={Whatsapp}
                 alt="WhatsApp"
