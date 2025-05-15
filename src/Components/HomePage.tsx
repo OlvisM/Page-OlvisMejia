@@ -12,7 +12,11 @@ const HomePage = forwardRef<HTMLDivElement>((_, ref) => {
           <img
             src={Image1}
             alt="Perfil"
-            className="w-full h-full object-cover md:rounded-2xl rounded-full border-2 border-gray-300 shadow-2xl"
+            className="w-full h-full object-cover md:rounded-2xl rounded-full border-2 border-gray-300 shadow-2xl mask-radial-at-center mask-squircle"
+            style={{
+              maskImage: "radial-gradient(white 40%, transparent 80%)",
+              WebkitMaskImage: "radial-gradient(white 60%, transparent 80%)",
+            }}
           />
         </div>
 

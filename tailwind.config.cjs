@@ -2,6 +2,13 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    plugins: [
+      require("@tailwindcss/forms"),
+      require("@tailwindcss/aspect-ratio"),
+      require("tailwindcss-filters"),
+      // otros plugins si los necesitas
+    ],
+
     extend: {
       animation: {
         "infinite-slider": "infiniteSlider 10s linear infinite", // Adjusted time for faster sliding

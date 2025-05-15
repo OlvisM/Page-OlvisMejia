@@ -34,7 +34,7 @@ const Galeria = forwardRef<HTMLDivElement>((_, ref) => {
                 </p>
               </div>
             </div>
-            <div className="max-w-sm rounded overflow-hidden shadow-lg transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-100 ">
+            <div className="max-w-sm rounded overflow-hidden shadow-lg transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-100">
               <div className="w-118">
                 <img
                   className="w-full "
