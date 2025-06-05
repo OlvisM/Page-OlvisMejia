@@ -8,7 +8,6 @@ module.exports = {
       require("tailwindcss-filters"),
       // otros plugins si los necesitas
     ],
-
     extend: {
       animation: {
         "infinite-slider": "infiniteSlider 10s linear infinite", // Adjusted time for faster sliding

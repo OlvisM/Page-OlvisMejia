@@ -3,6 +3,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barriecito&family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap");
 @import "tailwindcss";
+@theme {
+  --color-primary: #000000;
+  --color-secondary: (255, 255, 255);
+  --color-tertiary: #000000;
+  --color-quaternary: #ffffff;
+  --color-quinary: #000000;
+  --color-senary: #ffffff;
+  --color-septenary: #000000;
+}
 
 #header {
   background-image: url(./assets/Wallpaper/bannerMypage.png);
